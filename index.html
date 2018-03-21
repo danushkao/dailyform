@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Daily Form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+<div class="ba-container">
+	<form action="#" class="ba-payment-form" method="post">
+		<header class="ba-payment-form__header">
+			<div class="ba-payment-form__total">
+				<div class="ba-payment-form__key">
+					<img src="img/key.png" height="24" width="24">
+					<h2 class="ba-payment-form__create">Create your free account</h2>
+				</div>
+				<p class="ba-payment-form__log">Come and join our cool community, fill in your details to get started. Already have an account? <a href="#">Log in.</a></p>
+			</div>
+		</header>
+		<!-- /.ba-payment-form__header -->
+		<div class="ba-payment-form__body">
+			<div class="ba-form-row ba-form-row--details">
+				<div class="ba-form-row__first">
+					<input type="text" name="first_name" required placeholder="First name" max="9999999999999999">
+				</div>
+				<div class="ba-form-row__second">
+					<input type="text" name="last_name" required placeholder="Last name" max="9999999999999999">
+				</div>
+			</div>
+			<div class="ba-form-row ba-form-row--email">
+				<input class="email-input" type="text" name="email_address" required placeholder="Email Address" max="9999999999999999">
+			</div>
+			<div class="ba-form-row ba-form-row--password">
+				<input class="password-input" type="password" name="password" required placeholder="Password" max="9999999999999999">
+			</div>
+			<div class="ba-form-row ba-form-row--button">
+				<button class="button" type="submit">Sign up for free</button>
+			</div>
+			<div class="ba-form-row ba-form-row--p">
+				<p class="ba-form__rules">By clicking on "Sign up for free", you agree to the <a href="#">Terms of Service</a> and the <a href="#"> Privacy Policy</a></p>
+			</div>
+		</div>
+		<!-- /.ba-form__body -->
+	</form>
+	<!-- /.ba-payment-form -->
+</div>
+
+</body>
+</html>

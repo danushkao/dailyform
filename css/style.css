@@ -1,0 +1,153 @@
+
+body{
+	font: 400 12px/1.2 "Arial", sans-serif;
+	color: #9EABAD;
+	background: #171a1d url(../img/bg.jpg) no-repeat 100% 0 / cover;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+	padding-top: 35px;
+	margin: 0 auto;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	border-style: solid;
+	border-radius: 5px;
+	border: none;
+	font: 400 14px/1.2 Arial, sans-serif;
+	color: #7a7b7f;
+	background: #EEEEEE;
+	padding: 12px 12px;
+	text-decoration:
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	border-color:  #82d4e7;
+	outline: 0;
+}
+textarea {
+
+}
+
+select {
+	-webkit-appearance: none;
+	 appearance: none;
+}
+.ba-form-row {
+	margin-bottom: 15px ;
+}
+.ba-payment-form {
+	background: #FFF;
+	max-width: 460px;
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 30px;
+}
+.ba-payment-form__total {
+	margin-bottom: 25px;
+
+}
+.ba-payment-form__key {
+	display: flex;
+
+}
+img {
+	height: 24px;
+	width: 24px;
+}
+.ba-payment-form__create {
+	margin: 0 auto;
+	margin-left: 8px;
+	font: 700 24px/1.2 "Arial", sans-serif;
+	color: #1b1c1d;
+	margin-bottom: 20px;
+}
+.ba-payment-form__log {
+	margin: 0;
+	font: 400 13px/1.5 "Arial", sans-serif;
+	color: #797b7f;
+}
+.ba-form-row--details {
+	display: flex;
+
+}
+.ba-form-row__first {
+	flex-basis: 195px;
+	margin-right: 13px;
+}
+.ba-form-row__second {
+	flex-basis: 195px;
+}
+.ba-form-row--email {
+	display:flex;
+}
+.email-input {
+	flex-grow: 1;
+}
+.ba-form-row--password {
+	display:flex;
+}
+.password-input {
+	flex-grow: 1;
+}
+.ba-form-row--button {
+	display:flex;
+	margin-bottom: 20px;
+}
+.button {
+	flex-grow: 1;
+	background: #E83158;
+	border: none;
+	border-radius: 5px;
+	font: 700 18px/1.5 "Arial", sans-serif;
+	color: #FFF;
+	padding: 15px 0;
+}
+.ba-form-rules {
+	font: 400 12px/1.5 "Arial", sans-serif;
+	color: #1b1c1d;
+}
+a {
+	text-decoration: none;
+	color: #E83158;
+}
+.ba-form-row--p {
+	margin-bottom: 40px;
+}
